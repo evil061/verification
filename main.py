@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import asyncio
 import random
-#import B
+import B
 import os
 
 from discord import Client
@@ -74,7 +74,7 @@ async def on_message(message):
 async def setup(ctx):
     await ctx.send("working")
 
-#B.b()
+B.b()
 #client = MyClient(intents=intents)
 my_secret = os.environ['TOKEN']
 client.run(my_secret)
